@@ -1,6 +1,7 @@
 # CORDIC算法硬件加速核
 
 本项目为2022 Xilinx暑期学校DSP任务，基于pp4fpgas中的cordic项目进行重构和改进。
+项目板卡：PYNQ-Z1
 
 ## 一、HLS设计
 
