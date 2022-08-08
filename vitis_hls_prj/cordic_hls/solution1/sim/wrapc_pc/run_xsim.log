@@ -1,0 +1,354 @@
+THETA	COS_OUT	COS_GOLD	COS_ERR
+0	1.00000	1.00000	-0.00000
+1	0.99985	0.99985	0.00000
+2	0.99939	0.99939	-0.00000
+3	0.99863	0.99863	-0.00000
+4	0.99757	0.99756	-0.00000
+5	0.99619	0.99619	0.00000
+6	0.99452	0.99452	0.00000
+7	0.99254	0.99255	0.00000
+8	0.99027	0.99027	-0.00000
+9	0.98769	0.98769	-0.00000
+10	0.98481	0.98481	-0.00000
+11	0.98163	0.98163	-0.00000
+12	0.97815	0.97815	-0.00000
+13	0.97437	0.97437	-0.00000
+14	0.97030	0.97030	-0.00000
+15	0.96593	0.96593	-0.00000
+16	0.96127	0.96126	-0.00001
+17	0.95632	0.95630	-0.00001
+18	0.95107	0.95106	-0.00001
+19	0.94553	0.94552	-0.00002
+20	0.93970	0.93969	-0.00001
+21	0.93359	0.93358	-0.00001
+22	0.92720	0.92718	-0.00002
+23	0.92053	0.92050	-0.00002
+24	0.91357	0.91355	-0.00002
+25	0.90633	0.90631	-0.00002
+26	0.89877	0.89879	0.00003
+27	0.89098	0.89101	0.00003
+28	0.88292	0.88295	0.00003
+29	0.87460	0.87462	0.00002
+30	0.86600	0.86602	0.00002
+31	0.85714	0.85717	0.00002
+32	0.84802	0.84805	0.00003
+33	0.83864	0.83867	0.00003
+34	0.82901	0.82904	0.00002
+35	0.81913	0.81915	0.00003
+36	0.80899	0.80902	0.00003
+37	0.79861	0.79864	0.00002
+38	0.78799	0.78801	0.00002
+39	0.77712	0.77715	0.00002
+40	0.76603	0.76604	0.00002
+41	0.75469	0.75471	0.00002
+42	0.74313	0.74314	0.00002
+43	0.73134	0.73135	0.00002
+44	0.71933	0.71934	0.00001
+45	0.70712	0.70711	-0.00001
+46	0.69467	0.69466	-0.00001
+47	0.68202	0.68200	-0.00002
+48	0.66915	0.66913	-0.00002
+49	0.65608	0.65606	-0.00002
+50	0.64281	0.64279	-0.00002
+51	0.62935	0.62932	-0.00003
+52	0.61569	0.61566	-0.00003
+53	0.60184	0.60182	-0.00003
+54	0.58782	0.58779	-0.00004
+55	0.57361	0.57358	-0.00004
+56	0.55923	0.55919	-0.00004
+57	0.54468	0.54464	-0.00004
+58	0.52996	0.52992	-0.00004
+59	0.51508	0.51504	-0.00004
+60	0.50004	0.50000	-0.00004
+61	0.48485	0.48481	-0.00004
+62	0.46952	0.46947	-0.00005
+63	0.45404	0.45399	-0.00005
+64	0.43842	0.43837	-0.00005
+65	0.42257	0.42262	0.00005
+66	0.40668	0.40674	0.00005
+67	0.39068	0.39073	0.00005
+68	0.37456	0.37461	0.00005
+69	0.35833	0.35837	0.00004
+70	0.34198	0.34202	0.00004
+71	0.32553	0.32557	0.00004
+72	0.30899	0.30902	0.00003
+73	0.29234	0.29237	0.00003
+74	0.27561	0.27564	0.00003
+75	0.25880	0.25882	0.00001
+76	0.24191	0.24192	0.00002
+77	0.22493	0.22495	0.00002
+78	0.20789	0.20791	0.00002
+79	0.19081	0.19081	0.00000
+80	0.17364	0.17365	0.00001
+81	0.15643	0.15643	0.00001
+82	0.13916	0.13917	0.00001
+83	0.12187	0.12187	-0.00000
+84	0.10453	0.10453	-0.00000
+85	0.08716	0.08716	-0.00000
+86	0.06976	0.06976	-0.00000
+87	0.05233	0.05234	0.00000
+88	0.03490	0.03490	-0.00000
+89	0.01745	0.01745	-0.00000
+
+D:\VitisHLSProjects\cordic_hls\solution1\sim\verilog>set PATH= 
+
+D:\VitisHLSProjects\cordic_hls\solution1\sim\verilog>call D:/Xilinx/Vivado/2020.2/bin/xelab xil_defaultlib.apatb_cordic_top glbl -prj cordic.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_18 -L floating_point_v7_1_11 --lib "ieee_proposed=./ieee_proposed" -s cordic  
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_cordic_top glbl -prj cordic.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_18 -L floating_point_v7_1_11 --lib ieee_proposed=./ieee_proposed -s cordic 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/cordic.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_cordic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/cordic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/cordic_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cordic_control_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/csv_file_dump.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_fifo_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_fifo_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_fifo_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_fifo_intf' [D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_fifo_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_process_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_process_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_process_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'df_process_intf' [D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/df_process_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/dump_file_agent.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/nodf_module_interface.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/nodf_module_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/nodf_module_monitor.sv" into library xil_defaultlib
+WARNING: [VRFC 10-3609] overwriting previous definition of interface 'nodf_module_intf' [D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/nodf_module_interface.sv:4]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/sample_agent.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/sample_manager.sv" into library xil_defaultlib
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.cordic_control_s_axi
+Compiling module xil_defaultlib.cordic
+Compiling module xil_defaultlib.AESL_axi_slave_control
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_cordic_top
+Compiling module work.glbl
+Built simulation snapshot cordic
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/xsim.dir/cordic/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Aug  8 09:21:34 2022...
+
+****** xsim v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/cordic/xsim_script.tcl
+# xsim {cordic} -autoloadwcfg -tclbatch {cordic.tcl}
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source cordic.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 90 [0.00%] @ "125000"
+// RTL Simulation : 1 / 90 [161.54%] @ "765000"
+// RTL Simulation : 2 / 90 [161.54%] @ "1395000"
+// RTL Simulation : 3 / 90 [161.54%] @ "2025000"
+// RTL Simulation : 4 / 90 [161.54%] @ "2655000"
+// RTL Simulation : 5 / 90 [161.54%] @ "3285000"
+// RTL Simulation : 6 / 90 [161.54%] @ "3915000"
+// RTL Simulation : 7 / 90 [161.54%] @ "4545000"
+// RTL Simulation : 8 / 90 [161.54%] @ "5175000"
+// RTL Simulation : 9 / 90 [161.54%] @ "5805000"
+// RTL Simulation : 10 / 90 [161.54%] @ "6435000"
+// RTL Simulation : 11 / 90 [161.54%] @ "7065000"
+// RTL Simulation : 12 / 90 [161.54%] @ "7695000"
+// RTL Simulation : 13 / 90 [161.54%] @ "8325000"
+// RTL Simulation : 14 / 90 [161.54%] @ "8955000"
+// RTL Simulation : 15 / 90 [161.54%] @ "9585000"
+// RTL Simulation : 16 / 90 [161.54%] @ "10215000"
+// RTL Simulation : 17 / 90 [161.54%] @ "10845000"
+// RTL Simulation : 18 / 90 [161.54%] @ "11475000"
+// RTL Simulation : 19 / 90 [161.54%] @ "12105000"
+// RTL Simulation : 20 / 90 [161.54%] @ "12735000"
+// RTL Simulation : 21 / 90 [161.54%] @ "13365000"
+// RTL Simulation : 22 / 90 [161.54%] @ "13995000"
+// RTL Simulation : 23 / 90 [161.54%] @ "14625000"
+// RTL Simulation : 24 / 90 [161.54%] @ "15255000"
+// RTL Simulation : 25 / 90 [161.54%] @ "15885000"
+// RTL Simulation : 26 / 90 [161.54%] @ "16515000"
+// RTL Simulation : 27 / 90 [161.54%] @ "17145000"
+// RTL Simulation : 28 / 90 [161.54%] @ "17775000"
+// RTL Simulation : 29 / 90 [161.54%] @ "18405000"
+// RTL Simulation : 30 / 90 [161.54%] @ "19035000"
+// RTL Simulation : 31 / 90 [161.54%] @ "19665000"
+// RTL Simulation : 32 / 90 [161.54%] @ "20295000"
+// RTL Simulation : 33 / 90 [161.54%] @ "20925000"
+// RTL Simulation : 34 / 90 [161.54%] @ "21555000"
+// RTL Simulation : 35 / 90 [161.54%] @ "22185000"
+// RTL Simulation : 36 / 90 [161.54%] @ "22815000"
+// RTL Simulation : 37 / 90 [161.54%] @ "23445000"
+// RTL Simulation : 38 / 90 [161.54%] @ "24075000"
+// RTL Simulation : 39 / 90 [161.54%] @ "24705000"
+// RTL Simulation : 40 / 90 [161.54%] @ "25335000"
+// RTL Simulation : 41 / 90 [161.54%] @ "25965000"
+// RTL Simulation : 42 / 90 [161.54%] @ "26595000"
+// RTL Simulation : 43 / 90 [161.54%] @ "27225000"
+// RTL Simulation : 44 / 90 [161.54%] @ "27855000"
+// RTL Simulation : 45 / 90 [161.54%] @ "28485000"
+// RTL Simulation : 46 / 90 [161.54%] @ "29115000"
+// RTL Simulation : 47 / 90 [161.54%] @ "29745000"
+// RTL Simulation : 48 / 90 [161.54%] @ "30375000"
+// RTL Simulation : 49 / 90 [161.54%] @ "31005000"
+// RTL Simulation : 50 / 90 [161.54%] @ "31635000"
+// RTL Simulation : 51 / 90 [161.54%] @ "32265000"
+// RTL Simulation : 52 / 90 [161.54%] @ "32895000"
+// RTL Simulation : 53 / 90 [161.54%] @ "33525000"
+// RTL Simulation : 54 / 90 [161.54%] @ "34155000"
+// RTL Simulation : 55 / 90 [161.54%] @ "34785000"
+// RTL Simulation : 56 / 90 [161.54%] @ "35415000"
+// RTL Simulation : 57 / 90 [161.54%] @ "36045000"
+// RTL Simulation : 58 / 90 [161.54%] @ "36675000"
+// RTL Simulation : 59 / 90 [161.54%] @ "37305000"
+// RTL Simulation : 60 / 90 [161.54%] @ "37935000"
+// RTL Simulation : 61 / 90 [161.54%] @ "38565000"
+// RTL Simulation : 62 / 90 [161.54%] @ "39195000"
+// RTL Simulation : 63 / 90 [161.54%] @ "39825000"
+// RTL Simulation : 64 / 90 [161.54%] @ "40455000"
+// RTL Simulation : 65 / 90 [161.54%] @ "41085000"
+// RTL Simulation : 66 / 90 [161.54%] @ "41715000"
+// RTL Simulation : 67 / 90 [161.54%] @ "42345000"
+// RTL Simulation : 68 / 90 [161.54%] @ "42975000"
+// RTL Simulation : 69 / 90 [161.54%] @ "43605000"
+// RTL Simulation : 70 / 90 [161.54%] @ "44235000"
+// RTL Simulation : 71 / 90 [161.54%] @ "44865000"
+// RTL Simulation : 72 / 90 [161.54%] @ "45495000"
+// RTL Simulation : 73 / 90 [161.54%] @ "46125000"
+// RTL Simulation : 74 / 90 [161.54%] @ "46755000"
+// RTL Simulation : 75 / 90 [161.54%] @ "47385000"
+// RTL Simulation : 76 / 90 [161.54%] @ "48015000"
+// RTL Simulation : 77 / 90 [161.54%] @ "48645000"
+// RTL Simulation : 78 / 90 [161.54%] @ "49275000"
+// RTL Simulation : 79 / 90 [161.54%] @ "49905000"
+// RTL Simulation : 80 / 90 [161.54%] @ "50535000"
+// RTL Simulation : 81 / 90 [161.54%] @ "51165000"
+// RTL Simulation : 82 / 90 [161.54%] @ "51795000"
+// RTL Simulation : 83 / 90 [161.54%] @ "52425000"
+// RTL Simulation : 84 / 90 [161.54%] @ "53055000"
+// RTL Simulation : 85 / 90 [161.54%] @ "53685000"
+// RTL Simulation : 86 / 90 [161.54%] @ "54315000"
+// RTL Simulation : 87 / 90 [161.54%] @ "54945000"
+// RTL Simulation : 88 / 90 [161.54%] @ "55575000"
+// RTL Simulation : 89 / 90 [161.54%] @ "56205000"
+// RTL Simulation : 90 / 90 [100.00%] @ "56835000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 56875 ns : File "D:/VitisHLSProjects/cordic_hls/solution1/sim/verilog/cordic.autotb.v" Line 283
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Aug  8 09:21:39 2022...
+THETA	COS_OUT	COS_GOLD	COS_ERR
+0	1.00000	1.00000	-0.00000
+1	0.99985	0.99985	0.00000
+2	0.99939	0.99939	-0.00000
+3	0.99863	0.99863	-0.00000
+4	0.99757	0.99756	-0.00000
+5	0.99619	0.99619	0.00000
+6	0.99452	0.99452	0.00000
+7	0.99254	0.99255	0.00000
+8	0.99027	0.99027	-0.00000
+9	0.98769	0.98769	-0.00000
+10	0.98481	0.98481	-0.00000
+11	0.98163	0.98163	-0.00000
+12	0.97815	0.97815	-0.00000
+13	0.97437	0.97437	-0.00000
+14	0.97030	0.97030	-0.00000
+15	0.96593	0.96593	-0.00000
+16	0.96127	0.96126	-0.00001
+17	0.95632	0.95630	-0.00001
+18	0.95107	0.95106	-0.00001
+19	0.94553	0.94552	-0.00002
+20	0.93970	0.93969	-0.00001
+21	0.93359	0.93358	-0.00001
+22	0.92720	0.92718	-0.00002
+23	0.92053	0.92050	-0.00002
+24	0.91357	0.91355	-0.00002
+25	0.90633	0.90631	-0.00002
+26	0.89877	0.89879	0.00003
+27	0.89098	0.89101	0.00003
+28	0.88292	0.88295	0.00003
+29	0.87460	0.87462	0.00002
+30	0.86600	0.86602	0.00002
+31	0.85714	0.85717	0.00002
+32	0.84802	0.84805	0.00003
+33	0.83864	0.83867	0.00003
+34	0.82901	0.82904	0.00002
+35	0.81913	0.81915	0.00003
+36	0.80899	0.80902	0.00003
+37	0.79861	0.79864	0.00002
+38	0.78799	0.78801	0.00002
+39	0.77712	0.77715	0.00002
+40	0.76603	0.76604	0.00002
+41	0.75469	0.75471	0.00002
+42	0.74313	0.74314	0.00002
+43	0.73134	0.73135	0.00002
+44	0.71933	0.71934	0.00001
+45	0.70712	0.70711	-0.00001
+46	0.69467	0.69466	-0.00001
+47	0.68202	0.68200	-0.00002
+48	0.66915	0.66913	-0.00002
+49	0.65608	0.65606	-0.00002
+50	0.64281	0.64279	-0.00002
+51	0.62935	0.62932	-0.00003
+52	0.61569	0.61566	-0.00003
+53	0.60184	0.60182	-0.00003
+54	0.58782	0.58779	-0.00004
+55	0.57361	0.57358	-0.00004
+56	0.55923	0.55919	-0.00004
+57	0.54468	0.54464	-0.00004
+58	0.52996	0.52992	-0.00004
+59	0.51508	0.51504	-0.00004
+60	0.50004	0.50000	-0.00004
+61	0.48485	0.48481	-0.00004
+62	0.46952	0.46947	-0.00005
+63	0.45404	0.45399	-0.00005
+64	0.43842	0.43837	-0.00005
+65	0.42257	0.42262	0.00005
+66	0.40668	0.40674	0.00005
+67	0.39068	0.39073	0.00005
+68	0.37456	0.37461	0.00005
+69	0.35833	0.35837	0.00004
+70	0.34198	0.34202	0.00004
+71	0.32553	0.32557	0.00004
+72	0.30899	0.30902	0.00003
+73	0.29234	0.29237	0.00003
+74	0.27561	0.27564	0.00003
+75	0.25880	0.25882	0.00001
+76	0.24191	0.24192	0.00002
+77	0.22493	0.22495	0.00002
+78	0.20789	0.20791	0.00002
+79	0.19081	0.19081	0.00000
+80	0.17364	0.17365	0.00001
+81	0.15643	0.15643	0.00001
+82	0.13916	0.13917	0.00001
+83	0.12187	0.12187	-0.00000
+84	0.10453	0.10453	-0.00000
+85	0.08716	0.08716	-0.00000
+86	0.06976	0.06976	-0.00000
+87	0.05233	0.05234	0.00000
+88	0.03490	0.03490	-0.00000
+89	0.01745	0.01745	-0.00000
