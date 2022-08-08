@@ -1,5 +1,7 @@
 # CORDIC算法硬件加速核
 
+本项目为2022 Xilinx暑期学校DSP任务，基于pp4fpgas中的cordic项目进行重构和改进。
+
 ## 一、HLS设计
 
 HLS顶层函数`cordic()`的核心C代码如下：
