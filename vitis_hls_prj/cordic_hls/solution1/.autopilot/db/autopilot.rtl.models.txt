@@ -1,2 +1,0 @@
-cordic_control_s_axi
-cordic

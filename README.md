@@ -2,11 +2,17 @@
 
 本项目为2022 Xilinx暑期学校DSP任务，基于pp4fpgas中的cordic项目进行重构和改进。
 
-项目板卡：PYNQ-Z1
+***项目板卡：PYNQ-Z1***
 
-Jupyter文件位于`jupyter_notebooks/`目录下
+## 一、git仓库结构
 
-## 一、HLS设计
+- `jupyter/`：jupyter文件
+- `overlay/`：`.bit`和`.hwh`文件，导入PYNQ时**这些文件应与jupyter文件放在同一目录下**
+- `src/`：HLS源文件
+- `report/`：HLS的报告结果
+- `assets/`：`README.md`中引用的图片文件
+
+## 二、HLS设计
 
 HLS顶层函数`cordic()`的核心C代码如下：
 ```c
@@ -72,7 +78,7 @@ void cordic(THETA_TYPE theta, COS_SIN_TYPE &sine, COS_SIN_TYPE &cosine)
 
  - 综合后将代码综合、联合仿真，最终导出IP核。
 
-## 二、Vivado中搭建系统框架
+## 三、Vivado中搭建系统框架
 
 在Vivado中添加上述导出的IP核，并添加Zynq PS7等配套模块，将CORDIC IP与PS相连接，连接后的系统如下：
 
@@ -80,7 +86,7 @@ void cordic(THETA_TYPE theta, COS_SIN_TYPE &sine, COS_SIN_TYPE &cosine)
 <img src="./assets/cordic_Diagram.jpg" style="zoom:40%;" />
 </div>
 
-## 三、Jupyter中编写python代码
+## 四、Jupyter中编写python代码
 
 在Vivado中导出bitstream和hw handoff后，在Jupyter中加载该Overlay，通过直接读写寄存器和编写上层驱动的方式分别测试CORDIC Overlay，具体代码见相关Jupyter Notebook。
 

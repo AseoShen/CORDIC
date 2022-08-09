@@ -1,7 +1,0 @@
-Running: xsim.dir/cordic/xsimk.exe -simmode gui -wdb cordic.wdb -simrunnum 0 -socket 62828
-Design successfully loaded
-Design Loading Memory Usage: 6552 KB (Peak: 6552 KB)
-Design Loading CPU Usage: 31 ms
-Simulation completed
-Simulation Memory Usage: 8628 KB (Peak: 8628 KB)
-Simulation CPU Usage: 124 ms
